@@ -11,7 +11,7 @@ export const HeaderText = () => {
     return(
         <div className="header-text">
             <AnimatedParts 
-                parts={['Hello,', `I'm Albin.`, 'A fullstack developer']}
+                parts={['Hi,', `I'm Connor.`, 'A backend developer.']}
                 wordBreak={1}
                 bold={true}
             />

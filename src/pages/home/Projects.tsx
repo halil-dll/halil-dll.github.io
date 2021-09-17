@@ -30,16 +30,16 @@ export const Projects: React.FC<Props> = ({ animate }) => {
             </Flex>
             <div className={`special-project${animate ? ' animate' : ''}`}>
                 <Project 
-                    title={'Spotify'}
-                    description={'Spotify API for everyone'}
-                    image={'https://i.poxgur.com/bhcy5v.png'}
-                    link={'https://spot.poxen.dev'}
-                    animate={animate}
+                    title={'plane.js'}
+                    description={'Make yourself a plane to play around with! (Highly WIP)'}
+                    image={'https://cdn.zerotwo.wtf/plane.js.png'}
+                    link={'https://npmjs.org/package/@zerotwobot/plane.js'}
+                    github={'https://github.com/ConnorDoesDev/plane.js'}
+                    animate={true}
                     index={projects.length}
-                    github={'https://github.com/Poxie/spotify-app.git'}
                     reverted={false}
                 />
-            </div>
+            </div> 
         </Flex>
     )
 }

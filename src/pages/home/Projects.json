@@ -1,18 +1,18 @@
 {
     "projects": [
         {
-            "title": "Meetings",
-            "description": "Next generation meetings",
-            "image": "https://i.poxgur.com/EVGUyP.png",
-            "link": "https://chat.poxen.dev",
-            "github": "https://github.com/Poxie/chat-app.git"
+            "title": "ZeroTwo",
+            "description": "ZeroTwo is your favorite Waifu Discord Bot",
+            "image": "https://cdn.zerotwo.wtf/zerotwo.png",
+            "link": "https://zerotwo.wtf",
+            "github": "https://github.com/ConnorDoesDev/ZeroTwo.git"
         },
         {
-            "title": "Graphing",
-            "description": "Statistics don't have to be difficult",
-            "image": "https://i.poxgur.com/dVgteZ.png",
-            "link": "https://graph.poxen.dev",
-            "github": "https://github.com/Poxie/graph-app.git"
+            "title": "Vlogger Go Viral",
+            "description": "The next big-time digital influencer and viral web celebrity can be you!",
+            "image": "https://cdn.zerotwo.wtf/vlogger.png",
+            "link": "https://apps.apple.com/us/app/vlogger-go-viral-tuber-tycoon/id1045165396",
+            "github": "Closed Source"
         }
     ]
 }

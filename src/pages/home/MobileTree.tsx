@@ -37,12 +37,12 @@ export const MobileTree = () => {
             })}
             <div className={`special-project animate`}>
                 <Project 
-                    title={'Spotify'}
-                    description={'Spotify API for everyone'}
-                    image={'https://i.poxgur.com/bhcy5v.png'}
-                    link={'https://spot.poxen.dev'}
+                    title={'plane.js'}
+                    description={'Make yourself a plane to play around with! (Highly WIP)'}
+                    image={'https://cdn.zerotwo.wtf/plane.js.png'}
+                    link={'https://npmjs.org/package/@zerotwobot/plane.js'}
                     animate={true}
-                    github={'https://github.com/Poxie/spotify-app.git'}
+                    github={'https://github.com/ConnorDoesDev/plane.js'}
                     index={projects.length}
                     reverted={false}
                 />

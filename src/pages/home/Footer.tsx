@@ -11,9 +11,9 @@ export const Footer = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if(!ref.current) return;
+            if (!ref.current) return;
             const { top, height } = ref.current.getBoundingClientRect();
-            if(top - 450 < height) {
+            if (top - 450 < height) {
                 setVisible(true);
                 document.removeEventListener('scroll', handleScroll);
             }
@@ -21,20 +21,27 @@ export const Footer = () => {
         document.addEventListener('scroll', handleScroll);
         return () => document.removeEventListener('scroll', handleScroll);
     }, []);
-    
-    return(
+
+    return (
         <Flex className={`footer${visible ? ' visible' : ''}`} ref={ref} justifyContent={'center'} alignItems={'center'} flexDirection={'column'}>
-            <span className="footer-overlay"/>
+            <span className="footer-overlay" />
             {visible && (
                 <>
-                <span>
-                    Well, are you ready?
-                </span>
-                <a href="mailto:albin.karvling@hotmail.com" style={{color: 'inherit', textDecoration: 'none'}}>
-                    <Button rounded={true}>
-                        Let's do this
-                    </Button>
-                </a>
+                    <a href="mailto:connor@zerotwo.wtf" style={{ color: 'inherit', textDecoration: 'none' }}>
+                        <Button rounded={true}>
+                            E-Mail
+                        </Button>
+                    </a>
+                    <a href="https://twitter.com/intent/tweet?text=https://connor.is-a.dev%20is%20pretty%20cool!" style={{ color: 'inherit', textDecoration: 'none' }}>
+                        <Button rounded={true}>
+                            Share
+                        </Button>
+                    </a>
+                    <a href="https://discord.gg/qth3tKb592" style={{ color: 'inherit', textDecoration: 'none' }}>
+                        <Button rounded={true}>
+                            Discord Server
+                        </Button>
+                    </a>
                 </>
             )}
         </Flex>

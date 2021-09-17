@@ -1,10 +1,10 @@
 {
     "technologies": [
         {
-            "addons": ["FastAPI", "MySQL", "Flask"],
-            "icon": "https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png",
-            "language": "Python",
-            "description": "I also explored Python for backend. I know it pretty well, but I prefer Node.js."
+            "addons": [],
+            "icon": "https://cdn.zerotwo.wtf/swift.png",
+            "language": "Swift",
+            "description": "I like to build things for iOS/MacOS using \"Raw\" Swift, though I'm not really good at it."
         },
         {
             "addons": ["Express.js", "Socket.io", "MySQL"],
