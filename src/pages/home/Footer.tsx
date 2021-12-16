@@ -29,17 +29,17 @@ export const Footer = () => {
                 <>
                     <a href="mailto:connor@zerotwo.wtf" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
-                            E-Mail
+                        Eメール
                         </Button>
                     </a>
                     <a href="https://twitter.com/intent/tweet?text=https://connor.is-a.dev%20is%20pretty%20cool!" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
-                            Share
+                        シェア
                         </Button>
                     </a>
-                    <a href="https://discord.gg/qth3tKb592" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    <a href="https://zerotwo.wtf/support" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
-                            Discord Server
+                        Discordサーバー
                         </Button>
                     </a>
                 </>

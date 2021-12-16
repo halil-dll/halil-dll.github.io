@@ -11,14 +11,14 @@ export const HeaderText = () => {
     return(
         <div className="header-text">
             <AnimatedParts 
-                parts={['Hi,', `I'm Connor.`, 'A backend developer.']}
+                parts={['こんにちは,', `私はコナーです`, 'バックエンド開発者']}
                 wordBreak={1}
                 bold={true}
             />
             <Flex>
                 <Fade delay={1700}>
                     <Button onClick={explore}>
-                        Follow my journey
+                    私の旅をたどる
                     </Button>
                 </Fade>
             </Flex>

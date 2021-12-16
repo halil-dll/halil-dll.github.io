@@ -1,18 +1,18 @@
 {
-    "projects": [
-        {
-            "title": "ZeroTwo",
-            "description": "ZeroTwo is your favorite Waifu Discord Bot",
-            "image": "https://cdn.zerotwo.wtf/zerotwo.png",
-            "link": "https://zerotwo.wtf",
-            "github": "https://github.com/ConnorDoesDev/ZeroTwo.git"
-        },
-        {
-            "title": "Vlogger Go Viral",
-            "description": "The next big-time digital influencer and viral web celebrity can be you!",
-            "image": "https://cdn.zerotwo.wtf/vlogger.png",
-            "link": "https://apps.apple.com/us/app/vlogger-go-viral-tuber-tycoon/id1045165396",
-            "github": "Closed Source"
-        }
-    ]
+  "projects": [
+    {
+      "title": "ZeroTwo",
+      "description": "ZeroTwoはあなたのお気に入りのアニメDiscordボットです",
+      "image": "https://cdn.zerotwo.wtf/zerotwo.png",
+      "link": "https://zerotwo.wtf",
+      "github": "https://www.youtube.com/watch?v=oHg5SJYRHA0"
+    },
+    {
+      "title": "Apex Legends Status",
+      "description": "Apex Legendsサーバーのステータスとプレーヤーの統計をリアルタイムで表示します！",
+      "image": "https://cdn.zerotwo.wtf/qydC",
+      "link": "https://apexlegendsstatus.com",
+      "github": "https://github.com/HugoDerave"
+    }
+  ]
 }

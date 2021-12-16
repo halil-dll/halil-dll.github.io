@@ -1,16 +1,16 @@
 {
-    "years": [
-        {
-            "year": 17,
-            "title": "How it all started",
-            "description": "My programming journey began in 2020 by watching a Node.js crash course on YouTube by The Coding Train. This course covered the basic JavaScript functions, and stuff you can do with it. I started my self-taugh journey right after watching this course, GitHub and StackOverflow were my \"best friends\".",
-            "date": "May, 2020"
-        },
-        {
-            "year": 18,
-            "title": "Things get pretty",
-            "description": "Finally, after a \"long\" time, I got into programming really well. I thought: \"Can I do programming for a living?\", and here I am, a professional backend developer aiming to become a full-stack developer. I also am working as a developer at a company.",
-            "date": "July, 2021"
-        }
-    ]
+  "years": [
+    {
+      "year": 17,
+      "title": "すべてが始まった経緯",
+      "description": "私のプログラミングの旅は、2020年にThe CodingTrainによるYouTubeのNode.jsクラッシュコースを見ることから始まりました。 このコースでは、基本的なJavaScript関数と、それを使用して実行できることについて説明しました。 私はこのコースを見た直後に自分のタフな旅を始めました。GitHubとStackOverflowは私の「親友」でした。",
+      "date": "2020年5月"
+    },
+    {
+      "year": 18,
+      "title": "物事はきれいになります",
+      "description": "最後に、「長い」時間の後、私はプログラミングに非常にうまく入りました。 「生計を立てるためのプログラミングはできますか？」と思ったのですが、ここにいるのは、フルスタック開発者を目指しているプロのバックエンド開発者です。 私は会社で開発者としても働いています。",
+      "date": "2021年7月"
+    }
+  ]
 }

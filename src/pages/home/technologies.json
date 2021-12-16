@@ -1,23 +1,23 @@
 {
-    "technologies": [
-        {
-            "addons": [],
-            "icon": "https://cdn.zerotwo.wtf/swift.png",
-            "language": "Swift",
-            "description": "I like to build things for iOS/MacOS using \"Raw\" Swift, though I'm not really good at it."
-        },
-        {
-            "addons": ["Express.js", "Socket.io", "PostgreSQL"],
-            "icon": "https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg",
-            "language": "Node.js",
-            "description": "The first backend language I tried, I used it for every other project since then."
-        },
-        {
-            "addons": ["TypeScript", "Electron.js"],
-            "icon": "https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png",
-            "language": "JavaScript",
-            "description": "The language I started with, and the one I enjoy the most by far.",
-            "isMain": true
-        }
-    ]
+  "technologies": [
+    {
+      "addons": [],
+      "icon": "https://banner2.cleanpng.com/20180504/etq/kisspng-swift-apple-logo-objective-c-5aebf5e611ff18.0621486415254133500737.jpg",
+      "language": "Swift",
+      "description": "私は「Raw」Swiftを使用してiOS / MacOS用のものを作成するのが好きですが、あまり得意ではありません。"
+    },
+    {
+      "addons": ["Express.js", "Socket.io", "PostgreSQL"],
+      "icon": "https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg",
+      "language": "Node.js",
+      "description": "私が試した最初のバックエンドフレームワークは、それ以来、他のすべてのプロジェクトで使用していました。"
+    },
+    {
+      "addons": ["TypeScript", "Electron.js"],
+      "icon": "https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png",
+      "language": "JavaScript",
+      "description": "私が始めた言語、そして私がこれまでで最も楽しんでいる言語。",
+      "isMain": true
+    }
+  ]
 }
