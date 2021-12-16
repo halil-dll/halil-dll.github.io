@@ -32,7 +32,7 @@ export const Projects: React.FC<Props> = ({ animate }) => {
                 <Project 
                     title={'ZeroTwo'}
                     description={'ZeroTwoはあなたのお気に入りのアニメDiscordボットです'}
-                    image={'https://cdn.zerotwo.wtf/zerotwo.png'}
+                    image={'https://i.imgur.com/YZxtVWR.png'}
                     link={'https://zerotwo.wtf'}
                     animate={true}
                     github={'https://github.com/ZeroTwoDiscord'}

@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "title": "ZeroTwo",
-      "description": "ZeroTwoはあなたのお気に入りのアニメDiscordボットです",
-      "image": "https://cdn.zerotwo.wtf/zerotwo.png",
-      "link": "https://zerotwo.wtf",
+      "title": "YouTubeの通知",
+      "description": "開発者にとって、これはYouTube通知をアプリケーションに統合するためのシンプルなパッケージです。",
+      "image": "https://image.similarpng.com/very-thumbnail/2020/08/Youtube-notification-bells-Unread-Clipart-PNG.png",
+      "link": "https://npmjs.com/package/@zerotwobot/youtube-notification",
       "github": "https://www.youtube.com/watch?v=oHg5SJYRHA0"
     },
     {
