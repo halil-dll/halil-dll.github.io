@@ -2,22 +2,22 @@
   "technologies": [
     {
       "addons": [],
-      "icon": "https://banner2.cleanpng.com/20180504/etq/kisspng-swift-apple-logo-objective-c-5aebf5e611ff18.0621486415254133500737.jpg",
+      "icon": "https://macnotes.de/images/2020/09/swift-og.png",
       "language": "Swift",
       "description": "私は「Raw」Swiftを使用してiOS / MacOS用のものを作成するのが好きですが、あまり得意ではありません。"
     },
     {
-      "addons": ["Express.js", "Socket.io", "PostgreSQL"],
+      "addons": ["Express.js", "Socket.io", "PostgreSQL", "MySQL", "discord.js"],
       "icon": "https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg",
       "language": "Node.js",
-      "description": "私が試した最初のバックエンドフレームワークは、それ以来、他のすべてのプロジェクトで使用していました。"
+      "description": "Das erste Backend-Framework, das ich ausprobiert habe, wird seitdem in allen anderen Projekten verwendet.",
+      "isMain": true
     },
     {
       "addons": ["TypeScript", "Electron.js"],
       "icon": "https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png",
       "language": "JavaScript",
-      "description": "私が始めた言語、そして私がこれまでで最も楽しんでいる言語。",
-      "isMain": true
+      "description": "Die Sprache, die mir bisher am meisten Spaß macht."
     }
   ]
 }

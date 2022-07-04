@@ -37,12 +37,12 @@ export const MobileTree = () => {
             })}
             <div className={`special-project animate`}>
                 <Project 
-                    title={'ZeroTwo'}
-                    description={'ZeroTwoはあなたのお気に入りのアニメDiscordボットです'}
-                    image={'https://cdn.zerotwo.wtf/zerotwo.png'}
-                    link={'https://zerotwo.wtf'}
+                    title={'Titanfall 2 - Northstar'}
+                    description={'Titanfall 2 is back with custom, community-made servers! Host your own or join one of many existing servers. Jump into the heavily modified action of being a pilot again.'}
+                    image={'https://i.ytimg.com/vi/en06Y6CPMQg/maxresdefault.jpg'}
+                    link={'https://northstar.tf'}
                     animate={true}
-                    github={'https://github.com/ZeroTwoDiscord'}
+                    github={'https://github.com/R2Northstar'}
                     index={projects.length}
                     reverted={false}
                 />

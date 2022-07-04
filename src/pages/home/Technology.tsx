@@ -33,7 +33,11 @@ export const Technology: React.FC<Props> = ({ language, icon, addons, descriptio
                         )
                     })}
                 </div>
-                <img src={icon} alt="" />
+                <img src={icon} alt="" style={
+                    {
+                        borderRadius: '25%',
+                    }
+                } />
             </div>
         </Flex>
     )

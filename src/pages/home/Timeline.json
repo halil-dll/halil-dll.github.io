@@ -1,16 +1,22 @@
 {
   "years": [
     {
-      "year": 17,
-      "title": "すべてが始まった経緯",
-      "description": "私のプログラミングの旅は、2020年にThe CodingTrainによるYouTubeのNode.jsクラッシュコースを見ることから始まりました。 このコースでは、基本的なJavaScript関数と、それを使用して実行できることについて説明しました。 私はこのコースを見た直後に自分のタフな旅を始めました。GitHubとStackOverflowは私の「親友」でした。",
-      "date": "2020年5月"
+      "year": 8,
+      "title": "Wo alles begonnen hat",
+      "description": "Ich habe gerade im Internet nach Minecraft Mods gesucht, wo ich dann auf die Idee kam, einfach selbst welche zu machen. Ich hab nach crash-courses für Minecraft-Mod-Making gesucht und seit dem Programmiere ich nicht nur mods, sondern auch Websites, Apps, sogar Spiele (mit hässligen Grafiken weil ich schlecht im Designen bin) und mehr. StackOverflow und GitHub waren und sind immernoch meine besten Freunde.",
+      "date": "2017年3月"
     },
     {
-      "year": 18,
-      "title": "物事はきれいになります",
-      "description": "最後に、「長い」時間の後、私はプログラミングに非常にうまく入りました。 「生計を立てるためのプログラミングはできますか？」と思ったのですが、ここにいるのは、フルスタック開発者を目指しているプロのバックエンド開発者です。 私は会社で開発者としても働いています。",
+      "year": 10,
+      "title": "Es geht weiter",
+      "description": "Ich habe mich für mehr als nur das interressiert, was ich gemacht habe. Dass es über 100 Programmiersprachen gibt wusste ich bereits schon, aber meine Lieblingssprache habe ich bisher noch nicht gefunden. JavaScript klang wie \"Java\", das, dass man für die Minecraft Mods benutzt (zum Beispiel). Also habe ich mir ein paar Dokumentation geöffnet und direkt angefangen JavaScript zu lernen!",
       "date": "2021年7月"
+    },
+    {
+      "year": 13,
+      "title": "Professionele Nebenjobs bekommen",
+      "description": "Mit 13 schon profesionnel ein paar Apps oder Websites für Leute schreiben und Geld verdienen, dass ist einfach nur nice.",
+      "date": "2022年6月"
     }
   ]
 }

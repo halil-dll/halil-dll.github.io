@@ -1,16 +1,16 @@
 {
   "projects": [
     {
-      "title": "YouTubeの通知",
-      "description": "開発者にとって、これはYouTube通知をアプリケーションに統合するためのシンプルなパッケージです。",
+      "title": "YouTube Notifications",
+      "description": "Für Entwickler ist dies ein einfaches Paket zum Integrieren von YouTube-Benachrichtigungen in Ihre Anwendung.",
       "image": "https://i.pinimg.com/originals/d4/5d/a2/d45da26c0f7b399fe37624a839c963c7.png",
       "link": "https://npmjs.com/package/@zerotwobot/youtube-notification",
       "github": "https://www.youtube.com/watch?v=oHg5SJYRHA0"
     },
     {
       "title": "Apex Legends Status",
-      "description": "Apex Legendsサーバーのステータスとプレーヤーの統計をリアルタイムで表示します！",
-      "image": "https://cdn.zerotwo.wtf/qydC",
+      "description": "Sehen Sie sich den Serverstatus und die Spielerstatistiken von Apex Legends in Echtzeit an!",
+      "image": "https://apexlegendsstatus.com/assets/layout/apexlogo.png",
       "link": "https://apexlegendsstatus.com",
       "github": "https://github.com/HugoDerave"
     }

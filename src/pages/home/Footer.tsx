@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { AnimatedText } from "../../components/AnimatedText"
 import { Button } from "../../components/Button";
-import { Fade } from "../../components/Fade";
 import { Flex } from "../../components/Flex";
-import { WaitFor } from "../../components/WaitFor";
 
 export const Footer = () => {
     const [visible, setVisible] = useState(false);
@@ -27,17 +24,17 @@ export const Footer = () => {
             <span className="footer-overlay" />
             {visible && (
                 <>
-                    <a href="mailto:connor@zerotwo.wtf" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    <a href="mailto:halil@cstudios.gay" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
-                        Eメール
+                        E-Mail
                         </Button>
                     </a>
-                    <a href="https://twitter.com/intent/tweet?text=https://connor.is-a.dev%20is%20pretty%20cool!" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    <a href="https://twitter.com/intent/tweet?text=Ich%20schaue%20gerade%20halil-ismail.me%20an,%20die%20Seite%20sieht%20einfach%20geil%20aus" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
-                        シェア
+                        Tweet
                         </Button>
                     </a>
-                    <a href="https://zerotwo.wtf/support" style={{ color: 'inherit', textDecoration: 'none' }}>
+                    <a href="https://zerotwo.gay/server" style={{ color: 'inherit', textDecoration: 'none' }}>
                         <Button rounded={true}>
                         Discordサーバー
                         </Button>
