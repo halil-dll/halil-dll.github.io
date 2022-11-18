@@ -4,6 +4,7 @@ module.exports = {
   poweredByHeader: false,
   images: {
     domains: ['lastfm.freetls.fastly.net'],
+    unoptimized: true
   },
   async redirects() {
     return [
