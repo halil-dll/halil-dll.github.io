@@ -4,7 +4,7 @@ import FadeIn from 'react-fade-in'
 import Image from 'next/image'
 import SongImage from '@public/img/song.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-const { NEXT_PUBLIC_LASTFM_API_KEY } = process.env
+const NEXT_PUBLIC_LASTFM_API_KEY = "5888ff85ca20c64b8cb89a1e1291019f"
 
 export const NowPlayingCard = () => {
   const lastFM = useLastFM('connordoesdev', NEXT_PUBLIC_LASTFM_API_KEY!, 5000, 'large')
