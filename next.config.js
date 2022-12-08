@@ -24,11 +24,6 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/connor',
-        destination: 'https://connor.is-a.dev',
-        permanent: true,
-      },
-      {
         source: '/mastodon',
         destination: 'https://mastodon.lol/@connordouijo',
         permanent: true,

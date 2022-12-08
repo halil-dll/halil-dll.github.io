@@ -11,8 +11,8 @@ export const ProjectData: Project[] = [
   {
     title: 'connor.is-a.dev',
     description:
-      "You're currently here! This was forked from ven.earth, as I saw that as a good starting point to learn NextJS and React :)",
-    href: 'https://github.com/itsnebulalol/itsnebula.net',
+      "You're currently here!",
+    href: '/projects',
     icon: ['fas', 'home'],
   },
   {
