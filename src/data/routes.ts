@@ -14,6 +14,10 @@ export const RouteData: Route[] = [
     icon: ['fas', 'home'],
   },
   {
+    name: 'About',
+    href: '/about',
+  },
+  {
     name: 'Projects',
     href: '/projects',
   },
@@ -25,5 +29,5 @@ export const RouteData: Route[] = [
     name: 'Setup',
     href: '/setup',
     type: 'dropdown',
-  },
+  }
 ]
