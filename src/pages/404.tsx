@@ -4,7 +4,7 @@ const Custom404 = () => {
       <div>
         <h1 className="font-bold text-5xl">404</h1>
         <p className="text-gray-600 dark:text-gray-400 mt-2 max-w-sm">
-          A black hole has swallowed this page, or it never existed.
+          WHERE ARE WE?!
         </p>
       </div>
     </div>

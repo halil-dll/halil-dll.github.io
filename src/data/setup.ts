@@ -32,8 +32,8 @@ export const ComponentData: Component[] = [
   },
   {
     type: 'Mousepad',
-    name: 'SteelSeries QcK',
-    href: 'https://steelseries.com/gaming-mousepads/qck?size=m'
+    name: 'SkyPAD Sora 3.0 XL',
+    href: 'https://skypad.gg/products/the-sora-3-0-xl-skypad'
   },
   {
     type: 'Headset',

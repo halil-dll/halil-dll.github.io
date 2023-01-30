@@ -9,7 +9,7 @@ export interface Project {
 
 export const ProjectData: Project[] = [
   {
-    title: 'connor.is-a.dev',
+    title: 'halil-ismail.me',
     description:
       "You're currently here!",
     href: '/projects',

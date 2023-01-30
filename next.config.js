@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         source: '/mastodon',
-        destination: 'https://mastodon.lol/@connordouijo',
+        destination: 'https://mastodon.social/@connordouijo',
         permanent: true,
       }
     ]
