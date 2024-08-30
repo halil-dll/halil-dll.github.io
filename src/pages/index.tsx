@@ -31,7 +31,7 @@ const Home = () => {
   const { theme } = useTheme()
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('connordoesdev@yahoo.com')
+    navigator.clipboard.writeText('halil@pissmail.com')
     theme === 'dark'
       ? toast.success('Copied email to clipboard!', {
           style: {
@@ -44,13 +44,13 @@ const Home = () => {
 
   return (
     <>
-      <a rel="me" href="https://mastodon.social/@connordouijo" style={{"display": "none"}}></a>
-      <GenericMeta title="Connor" description="Student acting like a fullstack dev." />
+      <a rel="me" href="https://mastodon.social/@halilzerra" style={{"display": "none"}}></a>
+      <GenericMeta title="Halil" description="Student focusing on system administration and software engineering." />
 
       <MainLayout margin={false}>
-        <h1 className="text-6xl font-bold">Halil "Connor"</h1>
+        <h1 className="text-6xl font-bold">Halil</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-          Student acting like a fullstack dev.
+        Student focusing on system administration and software engineering.
         </p>
         <div className="grid grid-flow-col w-48 mt-3 text-lg">
           {AccountData.map((account) => (

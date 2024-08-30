@@ -16,12 +16,12 @@ class AppDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favico.ico" />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FFFFFF" />
-          <meta property="og:url" content="https://connor.is-a.dev" />
-          <meta property="og:site_name" content="connor.is-a.dev" />
-          <meta property="og:image" content="/img/connor.png" />
+          <meta property="og:url" content="https://halil.is-a.dev" />
+          <meta property="og:site_name" content="halil.is-a.dev" />
+          <meta property="og:image" content="/img/x.png" />
           <meta name="theme-color" content="#000000" />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:image" content="https://connor.is-a.dev/img/connor.png" />
+          <meta name="twitter:image" content="https://halil.is-a.dev/img/x.png" />
         </Head>
         <body className="bg-white dark:bg-black text-black dark:text-white">
           <Main />

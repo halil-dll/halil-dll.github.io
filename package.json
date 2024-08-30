@@ -1,11 +1,10 @@
 {
-  "name": "connor.is-a.dev",
-  "description": "My personal website.",
-  "homepage": "https://connor.is-a.dev",
-  "repository": "github:ConnorDoesDev/connor.is-a.dev",
+  "name": "halil.is-a.dev",
+  "description": "perosnal site i cloned from a friend.",
+  "homepage": "https://halil.is-a.dev",
   "version": "1.0.0",
   "private": true,
-  "author": "Connor (connor@cstudios.gay)",
+  "author": "Halil (halil@pissmail.com)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

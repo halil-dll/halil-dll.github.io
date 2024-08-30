@@ -10,24 +10,9 @@ module.exports = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/ConnorDoesDev',
+        destination: 'https://github.com/halil-dll',
         permanent: true,
       },
-      {
-        source: '/twitter',
-        destination: 'https://twitter.com/connordoesdev',
-        permanent: true,
-      },
-      {
-        source: '/discord',
-        destination: 'https://discord.gg/a6WRfzWTEa',
-        permanent: true,
-      },
-      {
-        source: '/mastodon',
-        destination: 'https://mastodon.social/@connordouijo',
-        permanent: true,
-      }
     ]
   },
 }

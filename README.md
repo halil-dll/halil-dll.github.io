@@ -1,4 +1,4 @@
-# connor.is-a.dev
+# halil.is-a.dev
 
 My personal site forked from [ven.earth](https://ven.earth) created with **Next.js** and **TailwindCSS**.
 
