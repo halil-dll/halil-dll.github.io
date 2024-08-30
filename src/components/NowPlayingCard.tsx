@@ -41,8 +41,8 @@ export const NowPlayingCard = () => {
         <div className="my-auto ml-4">
           <div className="font-semibold text-sm sm:text-regular">
             {lastFM.status === 'playing'
-              ? `Listening to ${truncate(lastFM.song.name, 25)} by ${truncate(lastFM.song.artist, 25)}`
-              : 'Not listening to anything'}
+              ? `listening to ${truncate(lastFM.song.name, 25)} by ${truncate(lastFM.song.artist, 25)}`
+              : 'inactive'}
           </div>
           <div className="text-xs text-gray-400">
           <FontAwesomeIcon className="fill-current" icon={['fab', 'spotify']} /> {lastFM.status === 'playing' ? lastFM.song.album : 'Spotify'}
