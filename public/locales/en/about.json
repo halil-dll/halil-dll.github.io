@@ -17,5 +17,16 @@
             "header": "My Goals",
             "story": "I have plenty of goals for myself as a programmer, both as an individual and as a member of a team. My goal is to continually improve my coding skills and stay current on new innovations in the profession. I want to develop effective and high-quality software solutions that meet the needs of both customers and users. I also aim to work on interesting and diverse projects that allow me to enhance my knowledge and skill set. I also want to assist those who are learning to code by contributing to the open-source community. I am a great believer in always challenging myself and pushing my limits in order to improve personally and professionally in the field of programming."
         }
+    },
+    "personal": {
+        "header": "Personal",
+        "hobbies": {
+            "header": "My Hobbies",
+            "keys": "In my free time, I go out with friends, play basketball, or play video games. Nothing special.\nFor basketball, my main role is the Wing (formally \"shooting guard\"). Sometimes I switch to try the center role, but I just can't get comfortable with it.\nI'm really into singleplayer games with a gripping campaign. Usually from studios like Call of Duty or Quantic Dreams\nFor multiplayer games, I usually play more strategic tactical-fps, like VALORANT (Peak 952rr), Counter Strike (1926 FaceIt elo) or Rainbow Six Siege (Platinum 2)."
+        }
+    },
+    "persona": {
+        "header": "Persona",
+        "keys": "I'm usually pretty self-aware but I think it is still hard for me to tell things about my personality (as in, I have no idea lmfao)\nI'd say I am a calm person by nature, I try to keep my calm and not over react or go crazy over something.\nLet's not talk about my humor. (skipping this part)\nI enjoy multi-tasking, but try to split a task up to multiple ones to give me a feeling of comfort (can't really explain this one, I just get work done easier like this)"
     }
 }

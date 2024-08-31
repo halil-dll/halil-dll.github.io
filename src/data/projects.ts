@@ -1,5 +1,4 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core'
-
 export interface Project {
   title: string
   description: string

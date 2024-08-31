@@ -96,30 +96,24 @@ const About = () => {
         </div>
       </article> */}
       <article className="max-w-none w-full prose prose-lg dark:prose-dark">
-        <h2>Personal</h2>
+        <h2>
+          {t('personal.header')}
+        </h2>
         <div>
-            <h3>My Hobbies</h3>
-            <span>
-              <strong>In</strong> my free time, I go out with friends, play basketball, or play video games. Nothing special.
-              <br></br>
-              <strong>For</strong> basketball, my main role is the Wing (formally "shooting guard"). Sometimes I switch to try the center role, but I just can't get comfortable with it.
-              <br></br>
-                <strong>I'm</strong> really into singleplayer games with a gripping campaign. Usually from studios like Call of Duty or Quantic Dreams
-              <br></br>
-              <strong>For</strong> multiplayer games, I usually play more strategic tactical-fps, like VALORANT (Peak 952rr), Counter Strike (1926 FaceIt elo) or Rainbow Six Siege (Platinum 2).
-            </span>
+            <h3>
+              {t('personal.hobbies.header')}
+            </h3>
+            <p>
+              {t('personal.hobbies.keys')}
+            </p>
         </div>
         <div>
-          <h3>Persona</h3>
+          <h3>
+            {t('persona.header')}
+          </h3>
           <p>
-            <strong>I'm</strong> usually pretty self-aware but I think it is still hard for me to tell things about my personality (as in, I have no idea lmfao)
-            <br></br>
-            <strong>I'd</strong> say I am a calm person by nature, I try to keep my calm and not over react or go crazy over something.
-            <br></br>
-            <strong>Let's</strong> not talk about my humor. (skipping this part)
-            <br></br>
-            <strong>I</strong> enjoy multi-tasking, but try to split a task up to multiple ones to give me a feeling of comfort (can't really explain this one, I just get work done easier like this)
-          </p>
+              {t('persona.keys')}
+            </p>
         </div>
       </article>
     </MainLayout>
