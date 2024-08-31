@@ -1,48 +1,67 @@
 import { MainLayout } from 'layouts/MainLayout'
+import { GetStaticProps } from 'next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { Props } from 'next/script'
+import { useTranslation } from 'react-i18next'
+export const getStaticProps: GetStaticProps<Props> = async ({
+  locale,
+}) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? 'en', [
+      'common',
+      'about',
+    ])),
+  },
+})
 
 const About = () => {
+  const { t } = useTranslation('about')
   return (
-    <MainLayout title="About" description="Some information about me (scroll down for my photography path)">
+    <MainLayout title={t('header')} description={t('description')}>
       <article className="max-w-none w-full prose prose-lg dark:prose-dark">
-        <h2>Programming</h2>
+        <h2>{t('programming.header')}</h2>
         <div>
-          <h3>How I got into Programming</h3>
+          <h3>{t('programming.subheader')}</h3>
             <p>
-            I got into programming because I was always fascinated by how technology works and how I could utilize it to solve problems. I began by learning how to build simple websites before advancing gradually to more advanced programming ideas. I initially learned by myself using learning tools like Codecademy, StackOverflow and Udemy. I made the decision to pursue coding as a career after seeing how much I loved the problem-solving part of it as I learned more and built more projects. I continuously develop my abilities and discover new technologies.
+              {t('programming.entrystory')}
             </p>
         </div>
         <div>
-            <h3>My Stack</h3>
+            <h3>{t('programming.technologies.header')}</h3>
             <p>
-            I am (trying to be) a full-stack developer with a focus on the back-end. I have experience with the following technologies:
+            {t('programming.technologies.subheader')}
             </p>
             <ul>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node.js</li>
+                <li>JavaScript/TypeScript (NodeJS, TSW)</li>
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>Express</li>
                 <li>GraphQL</li>
                 <li>PostgreSQL</li>
+                <li>Datadog</li>
+                <li>Sentry</li>
                 <li>Git</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SCSS</li>
-                <li>Bootstrap</li>
-                <li>Material UI</li>
-                <li>Styled Components</li>
-                <li>React Testing Library</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li><strong>SAP ABAP</strong></li>
+                <li>IDA Debugging and Reverse Engineering</li>
+                <li>HeapMemView</li>
             </ul>
         </div>
         <div>
-            <h3>My Goals</h3>
+          <h4>{t('programming.technologies.learn.header')}</h4>
+          <p>
+            {t('programming.technologies.learn.story')}
+          </p>
+        </div>
+        <div>
+            <h3>{t('programming.goals.header')}</h3>
             <p>
-            I have a number of objectives for myself as a programmer, both as an individual and as a member of a team. My goal is to constantly hone my coding abilities and stay abreast of new developments in the field. I want to create effective and high-quality software solutions that cater to customers' and users' needs. I also try to work on interesting and varied projects that let me broaden my knowledge and skill set. I also want to help those who are learning to code and give back to the open-source community. I firmly believe in constantly challenging myself and extending my boundaries in order to advance both personally and professionally in the field of programming. As a team member, my objectives are to work well with others, impart my knowledge, and aid my group in achieving our shared objectives. In all of my team initiatives, I strive to establish and uphold the pleasant and inclusive work atmosphere that I value effective communication, teamwork, and mutual respect.
+              {t('programming.goals.story')}
             </p>
         </div>
       </article>
-      <article className="max-w-none w-full prose prose-lg dark:prose-dark">
+      {/* <article className="max-w-none w-full prose prose-lg dark:prose-dark">
         <h2>Photography</h2>
         <div>
           <h3>How I got into Photography</h3>
@@ -75,15 +94,32 @@ const About = () => {
               ...and I have high hopes for my future as a programmer and photographer.
             </p>
         </div>
-      </article>
+      </article> */}
       <article className="max-w-none w-full prose prose-lg dark:prose-dark">
         <h2>Personal</h2>
         <div>
             <h3>My Hobbies</h3>
-            <p>
-            I'm a big fan of video games, I actively play VALORANT and other games. I also enjoy watching movies and shows. Once I get invested in a show or book, I <em>won't</em> stop watching it until I finish it.
-            I honestly don't have much time for hobbies or other freetime things, but I enjoy playing basketball or jogging when I have the time.
-            </p>
+            <span>
+              <strong>In</strong> my free time, I go out with friends, play basketball, or play video games. Nothing special.
+              <br></br>
+              <strong>For</strong> basketball, my main role is the Wing (formally "shooting guard"). Sometimes I switch to try the center role, but I just can't get comfortable with it.
+              <br></br>
+                <strong>I'm</strong> really into singleplayer games with a gripping campaign. Usually from studios like Call of Duty or Quantic Dreams
+              <br></br>
+              <strong>For</strong> multiplayer games, I usually play more strategic tactical-fps, like VALORANT (Peak 952rr), Counter Strike (1926 FaceIt elo) or Rainbow Six Siege (Platinum 2).
+            </span>
+        </div>
+        <div>
+          <h3>Persona</h3>
+          <p>
+            <strong>I'm</strong> usually pretty self-aware but I think it is still hard for me to tell things about my personality (as in, I have no idea lmfao)
+            <br></br>
+            <strong>I'd</strong> say I am a calm person by nature, I try to keep my calm and not over react or go crazy over something.
+            <br></br>
+            <strong>Let's</strong> not talk about my humor. (skipping this part)
+            <br></br>
+            <strong>I</strong> enjoy multi-tasking, but try to split a task up to multiple ones to give me a feeling of comfort (can't really explain this one, I just get work done easier like this)
+          </p>
         </div>
       </article>
     </MainLayout>

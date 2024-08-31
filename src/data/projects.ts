@@ -9,30 +9,30 @@ export interface Project {
 
 export const ProjectData: Project[] = [
   {
-    title: 'halil-ismail.me',
+    title: 'halil.is-a.dev',
     description:
       "You're currently here!",
     href: '/projects',
     icon: ['fas', 'home'],
   },
   {
-    title: 'VALORANT',
+    title: 'Ernst-Reuter-Schule',
     description:
-      "A 5v5 character-based tactical shooter",
-    href: 'https://discord.com/api/oauth2/authorize?client_id=968290486102143036&permissions=2147863552&scope=applications.commands%20bot',
-    icon: ['fas', 'robot'],
+      "Die Ernst-Reuter-Schule ist eine Integrierte Sekundarschule (ISS) mit einer eigenen gymnasialen Oberstufe und ungefähr 1000 Schüler:innen, die von rund 130 Lehrer:innen, Erzieher:innen und Sozialarbeiter:innen unterrichtet und betreut werden.",
+    href: 'https://ernst-reuter-schule.berlin/',
+    icon: ['fas', 'home'],
   },
   {
-    title: 'placeholder',
+    title: 'Jugendhackt',
     description:
-      "still writing this. just wanted to finish the design first",
-    href: 'https://placeholder.com',
+      "Mit Freundschaft die Welt verbessern",
+    href: 'https://jugendhackt.org',
     icon: ['fas', 'pen'],
   },
   {
-    title: 'placeholder',
+    title: 'Cyberthreat Simulator',
     description:
-      "same as above",
+      "Bist du wirklich so sicher vor Cyber-Angriffen, wie du denkst? (unhosted project)",
     href: 'https://placeholder.com',
     icon: ['fas', 'pen'],
   },

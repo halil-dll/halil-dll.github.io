@@ -7,43 +7,33 @@ export interface Component {
 export const ComponentData: Component[] = [
   {
     type: 'Monitor 1',
-    name: 'ASUS VG248QG',
-    href: 'https://www.asus.com/de/displays-desktops/monitors/gaming/vg248qg/',
+    name: 'ZOWIE XL2566K TN 360Hz',
+    href: 'https://zowie.benq.com/en-us/monitor/xl2566x-plus.html',
   },
   {
     type: 'Monitor 2',
-    name: 'ASUS VG248QG',
-    href: 'https://www.asus.com/de/displays-desktops/monitors/gaming/vg248qg/',
-  },
-  {
-    type: 'Flightstick',
-    name: 'Thrustmaster T.Flight Hotas X',
-    href: 'https://www.thrustmaster.com/de_DE/products/t-flight-hotas-x',
+    name: 'ZOWIE XL2566K TN 360Hz',
+    href: 'https://zowie.benq.com/en-us/monitor/xl2566x-plus.html',
   },
   {
     type: 'Keyboard',
-    name: 'Sharkoon Skiller Pro',
-    href: 'https://www.sharkoon.com/de/produkte/produktuebersicht/produkt/keyboard-skiller-pro/',
+    name: 'Wooting 80HE',
+    href: 'https://wooting.io',
   },
   {
     type: 'Mouse',
-    name: 'Logitech G203 Lightsync',
-    href: 'https://www.logitechg.com/de-de/products/gaming-mice/g203-prodigy-wired-gaming-mouse.html',
+    name: 'Finalmouse ULX Pro x Tarik',
+    href: 'https://finalmouse.com',
   },
   {
     type: 'Mousepad',
     name: 'SkyPAD Sora 3.0 XL',
-    href: 'https://skypad.gg/products/the-sora-3-0-xl-skypad'
+    href: 'https://skypad.gg/'
   },
   {
     type: 'Headset',
-    name: 'HyperX Cloud Stinger',
-    href: 'https://hyperx.com/collections/gaming-headsets/products/hyperx-cloud-stinger'
-  },
-  {
-    type: 'VR Headset',
-    name: 'Oculus Quest 2',
-    href: 'https://www.oculus.com/quest-2/'
+    name: 'HyperX Cloud 3',
+    href: 'https://hyperx.com/collections/gaming-headsets/products/hyperx-cloud-3'
   },
   {
     type: 'Controller',
@@ -57,11 +47,6 @@ export const ComponentData: Component[] = [
   },
   {
     type: 'Storage Device 1',
-    name: 'SeaGate HDD 4.5TB',
-    href: 'https://www.seagate.com/en/us/internal-hard-drives/desktop-hard-drives/hdd/'
-  },
-  {
-    type: 'Storage Device 2',
     name: 'Samsung SSD 1TB',
     href: 'https://www.samsung.com/en/memory-storage/solid-state-drives/ssd-860-evo-1tb-mz-76e1t0b-am/'
   }

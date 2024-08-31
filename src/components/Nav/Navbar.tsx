@@ -4,6 +4,7 @@ import { ThemeSwitcher } from './ThemeSwitcher'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Route, RouteData } from 'data/routes'
 import { Dropdown } from './Dropdown'
+import { LanguageSwitcher } from './LanguageSwitcher'
 
 const NavbarItem = ({ name, href, icon }: Omit<Route, 'type'>) => {
   return (
@@ -30,6 +31,9 @@ export const Navbar = () => {
 
       <div className="ml-auto">
         <ThemeSwitcher />
+      </div>
+      <div className='ml-auto'>
+        <LanguageSwitcher />
       </div>
     </nav>
   )

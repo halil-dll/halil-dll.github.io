@@ -1,5 +1,5 @@
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter, faGithub, faDiscord, faApple, faSpotify, faMastodon } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faDiscord, faApple, faSpotify } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
   faSearch,
@@ -12,7 +12,7 @@ import {
   faMusic,
   faPen,
 } from '@fortawesome/free-solid-svg-icons'
-import { faClock, faSun, faMoon } from '@fortawesome/free-regular-svg-icons'
+import { faClock, faSun, faMoon, faBookmark } from '@fortawesome/free-regular-svg-icons'
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
@@ -21,11 +21,11 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 // Import @fortawesome/free-brands-svg-icons
-library.add(faTwitter, faGithub, faDiscord, faApple, faSpotify, faMastodon)
+library.add(faTwitter, faGithub, faDiscord, faApple, faSpotify)
 
 // Import @fortawesome/free-solid-svg-icons
 library.add(faEnvelope, faSearch, faCalendarDay, faSolidCaretDown, faHome, 
   faCaretRight, faLink, faRobot, faMusic, faPen)
 
 // Import @fortawesome/free-regular-svg-icons
-library.add(faClock, faSun, faMoon)
+library.add(faClock, faSun, faMoon, faBookmark)

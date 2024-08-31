@@ -29,7 +29,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/_document.tsx"  ],
+, "src/pages/_document.tsx", "src/components/Avatar.tsx"  ],
   "exclude": [
     "node_modules"
   ]

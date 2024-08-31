@@ -1,0 +1,21 @@
+{
+    "header": "About",
+    "description": "Some information about me (scroll down for my photography path)",
+    "programming": {
+        "header": "Programming",
+        "subheader": "How I got into Programming",
+        "entrystory": "I got into programming because I was always fascinated by how technology works and how I could apply it to solve problems. I started by learning how to design basic websites before progressing to more complicated programming concepts. Initially, I learned on my own utilizing tools such as Codecademy, StackOverflow, and Udemy. I decided to pursue coding as a career after seeing how much I like the problem-solving aspect as I learnt more and created more projects. I am constantly improving my skills and discovering new technology.",
+        "technologies": {
+            "header": "Technologies I Have Experience With",
+            "subheader": "I have little experience in the frontend field as I specialize in Cyber-threat intelligence research and backend works.",
+            "learn": {
+                "header": "How I Learned These Technologies",
+                "story": "The most interesting language I have learned till date is probably SAP ABAP, it's an interesting Object-Oriented Language I had a lot of fun with (and a lot of pain learning it)"
+            }
+        },
+        "goals": {
+            "header": "My Goals",
+            "story": "I have plenty of goals for myself as a programmer, both as an individual and as a member of a team. My goal is to continually improve my coding skills and stay current on new innovations in the profession. I want to develop effective and high-quality software solutions that meet the needs of both customers and users. I also aim to work on interesting and diverse projects that allow me to enhance my knowledge and skill set. I also want to assist those who are learning to code by contributing to the open-source community. I am a great believer in always challenging myself and pushing my limits in order to improve personally and professionally in the field of programming."
+        }
+    }
+}

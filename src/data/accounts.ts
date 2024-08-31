@@ -13,20 +13,12 @@ export const AccountData: Account[] = [
     href: '/github',
   },
   {
-    name: 'Twitter',
-    href: '/twitter',
-  },
-  {
-    name: 'Discord',
-    href: '/discord',
-  },
-  {
     name: 'Email',
     icon: ['fas', 'envelope'],
   },
   {
-    name: 'Mastodon',
-    href: '/mastodon',
-    icon: ['fab', 'mastodon'],
-  },
+    name: 'Bluesky',
+    href: '/bluesky',
+    icon: ['fab', 'twitter']
+  }
 ]

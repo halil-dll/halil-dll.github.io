@@ -5,8 +5,9 @@ import { ThemeProvider } from 'next-themes'
 import { AppProps } from 'next/app'
 import { Toaster } from 'react-hot-toast'
 import { Navbar } from 'components/Nav/Navbar'
+import { appWithTranslation } from 'next-i18next'
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }) => {
   return (
     <SWRConfig
       value={{
@@ -61,4 +62,4 @@ const App = ({ Component, pageProps }: AppProps) => {
   )
 }
 
-export default App
+export default appWithTranslation(App)

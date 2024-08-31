@@ -38,9 +38,9 @@ const Setup = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.apple.com/macbook-air-m1/"
+              href="https://www.apple.com/macbook-air-m2/"
             >
-              Apple MacBook Air 13" (M1)
+              Apple MacBook Air M2
             </a>
           </div>
         </div>

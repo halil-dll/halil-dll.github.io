@@ -29,7 +29,7 @@ export default function Posts({
         <p className="ml-2">
           <a
             className="focus:outline-none transition duration-300 ease-in-out hover:text-indigo-900 dark:hover:text-indigo-200"
-            href="https://twitter.com/halilzerra"
+            href="https://bsky.app/profile/halilzerra.bsky.social"
             rel="noopener noreferrer"
             target="_blank"
           >
