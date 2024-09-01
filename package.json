@@ -10,7 +10,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build && npm run export"
   },
   "license": "MIT",
   "dependencies": {
@@ -62,6 +64,7 @@
     "eslint": "^7.29.0",
     "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.3.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2",
     "rehype": "^11.0.0",
