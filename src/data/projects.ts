@@ -26,7 +26,7 @@ export const ProjectData: Project[] = [
     description:
       "Mit Freundschaft die Welt verbessern",
     href: 'https://jugendhackt.org',
-    icon: ['fas', 'pen'],
+    icon: ['fas', 'robot'],
   },
   {
     title: 'Cyberthreat Simulator',

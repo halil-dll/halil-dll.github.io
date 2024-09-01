@@ -1,9 +1,16 @@
 import { MainLayout } from 'layouts/MainLayout'
 import { GetStaticProps } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { Props } from 'next/script'
 import { useTranslation } from 'react-i18next'
-export const getStaticProps: GetStaticProps<Props> = async ({
+interface ScriptProps {
+  _nextI18Next?: {
+    initialI18nStore: any;
+    initialLocale: string;
+    ns: string[];
+  };
+}
+
+export const getStaticProps: GetStaticProps<ScriptProps> = async ({
   locale,
 }) => ({
   props: {
@@ -44,7 +51,7 @@ const About = () => {
                 <li>C#</li>
                 <li>C++</li>
                 <li><strong>SAP ABAP</strong></li>
-                <li>IDA Debugging and Reverse Engineering</li>
+                <li>IDA Debugging & Reverse Engineering</li>
                 <li>HeapMemView</li>
             </ul>
         </div>

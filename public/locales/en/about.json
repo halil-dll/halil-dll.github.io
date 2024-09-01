@@ -1,13 +1,13 @@
 {
     "header": "About",
-    "description": "Some information about me (scroll down for my photography path)",
+    "description": "Some information about me",
     "programming": {
         "header": "Programming",
         "subheader": "How I got into Programming",
         "entrystory": "I got into programming because I was always fascinated by how technology works and how I could apply it to solve problems. I started by learning how to design basic websites before progressing to more complicated programming concepts. Initially, I learned on my own utilizing tools such as Codecademy, StackOverflow, and Udemy. I decided to pursue coding as a career after seeing how much I like the problem-solving aspect as I learnt more and created more projects. I am constantly improving my skills and discovering new technology.",
         "technologies": {
             "header": "Technologies I Have Experience With",
-            "subheader": "I have little experience in the frontend field as I specialize in Cyber-threat intelligence research and backend works.",
+            "subheader": "I have little experience in the frontend field as I specialize in Cyber-threat intelligence research, system administration and software engineering in the backend-part.",
             "learn": {
                 "header": "How I Learned These Technologies",
                 "story": "The most interesting language I have learned till date is probably SAP ABAP, it's an interesting Object-Oriented Language I had a lot of fun with (and a lot of pain learning it)"

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Route, RouteData } from 'data/routes'
 import { Dropdown } from './Dropdown'
 import { LanguageSwitcher } from './LanguageSwitcher'
+import { useTranslation } from 'react-i18next'
 
 const NavbarItem = ({ name, href, icon }: Omit<Route, 'type'>) => {
   return (
@@ -21,10 +22,12 @@ const NavbarItem = ({ name, href, icon }: Omit<Route, 'type'>) => {
 }
 
 export const Navbar = () => {
+  const { t, i18n } = useTranslation()
+  const l = i18n.language || 'en'; 
   return (
     <nav className="z-50 w-full flex justify-start items-center mx-auto max-w-4xl px-8 my-20">
       {RouteData.filter((route) => route.type !== 'dropdown').map((route) => (
-        <NavbarItem key={uuidv4()} name={route.name} href={route.href} icon={route.icon} />
+        <NavbarItem key={uuidv4()} name={route.name} href={`/${l}${route.href}`} icon={route.icon} />
       ))}
 
       <Dropdown />

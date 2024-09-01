@@ -1,0 +1,32 @@
+{
+    "header": "Über Mich",
+    "description": "Ein paar Dinge über mich",
+    "programming": {
+        "header": "Programmier-Pfad",
+        "subheader": "Wie ich zum Programmieren kam",
+        "entrystory": "Ich war immer fasziniert davon, wie Technologie funktioniert und wie ich sie zur Lösung von verschiedenen Alltags-Problemen einsetzen kann. Ich habe zunächst gelernt, wie man einfache Websiten entwirft, bevor ich zu komplizierteren Programmierkonzepten übergegangen bin. Anfangs habe ich mir das Programmieren selbst beigebracht und dabei Tools wie Github, StackOverflow und Udemy verwendet. Ich habe mich entschieden, Programmieren als Beruf zu verfolgen, nachdem ich gemerkt habe, wie sehr mir der Aspekt der Problemlösung gefällt, je mehr ich gelernt und mehr Projekte geschrieben habe. Ich verbessere ständig meine Fähigkeiten und entdecke neue Technologien, die ich ausprobieren kann.",
+        "technologies": {
+            "header": "Technologien, mit denen ich Erfahrung habe",
+            "subheader": "Ich habe wenig Erfahrung im Frontend-Bereich, da ich mehr auf die Erforschung von Cyber-Threats, System Administration und Software Entwicklung im Backend Bereich spezialisiert bin.",
+            "learn": {
+                "header": "Wie ich diese Technologien erlernt habe",
+                "story": "Die interessanteste Technologie, die ich bisher gelernt habe, ist wahrscheinlich SAP ABAP. Es ist eine interessante objekt-orientierte Sprache, die mir beim Lernen viel Spaß gemacht hat (und auch viel Frust :p)."
+            }
+        },
+        "goals": {
+            "header": "Meine Ziele",
+            "story": "Ich habe viele Ziele für mich als Programmierer, sowohl als Einzelner und auch als Mitglied eines Teams. Mein Ziel ist es, meine Programmierkenntnisse kontinuerlich zu verbessern und über neue Technologien in der Branche up-to-date zu bleiben. Ich möchte effektive und qualitativ hochwertige Softwarelösungen entwickeln, die den Anforderungen von Kunden und Benutzern gerecht werden. Ich möchte auch an interessanten und abwechslungsreichen Projekten arbeiten, die mir ermöglichen, mein Wissen und meine Fähigkeiten zu verbessern und zu erweitern. Auch will ich mein bestes geben, diejenigen zu unterstützen, die das Programmieren lernen, indem ich zur Open-Source-Community beitrage und neuen Besuchern bei Jugendhackt helfe. Ich bin ein großer Anhänger davon, mich selbst immer herauszufordern und meine Grenzen zu überschreiten, um mich persönlich und beruflich im Bereich der Programmierung zu verbessern."
+        }
+    },
+    "personal": {
+        "header": "Persönliches",
+        "hobbies": {
+            "header": "Meine Hobbies",
+            "keys": "In meiner Freizeit gehe ich mit Freunden raus und spiele Basketball oder Videospiele. Nichts Besonderes.\nBeim Basketball ist meine Hauptrolle der Wing (formal „Shooting Guard“). Manchmal wechsle ich auch in die Center-Rolle, aber ich mag die Rolle nicht.\nIch bin ein großer Fan von Singeplayer-Games mit einer spannenden Kampagne. Normalerweise von Studios wie Call of Duty oder Quantic Dreams.\nBei Mehrspielerspielen spiele ich normalerweise eher strategische Taktik-FPS wie VALORANT (Peak 952rr), Counter Strike (1926 FaceIt elo) oder Rainbow Six Siege (Platinum 2)."
+        }
+    },
+    "persona": {
+        "header": "Persona",
+        "keys": "Normalerweise bin ich ziemlich selbstbewusst, aber ich glaube, es fällt mir trotzdem schwer, etwas über meine Persönlichkeit zu sagen (ich meine damit, dass ich keine Ahnung habe, lol). Ich bin von Natur aus ein ruhiger Mensch. Ich versuche, egal wann und wo, ruhig zu bleiben und nicht überzureagieren oder wegen etwas durchzudrehen.\nnÜber meinen Humor brauchen wir nicht reden. (Diesen Teil überspringe ich lieber)\n\n Ich mache gerne Multitasking, aber ich versuche, eine Aufgabe in mehrere aufzuteilen, warum kann ich nicht wirklich erklären, ich bekomme Arbeit so einfach leichter erledigt."
+    }
+}

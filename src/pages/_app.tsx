@@ -1,13 +1,35 @@
 import 'styles/globals.css'
 import 'lib/fontawesome'
+import '../../node_modules/flag-icons/css/flag-icons.min.css'
 import { SWRConfig } from 'swr'
 import { ThemeProvider } from 'next-themes'
 import { AppProps } from 'next/app'
 import { Toaster } from 'react-hot-toast'
 import { Navbar } from 'components/Nav/Navbar'
 import { appWithTranslation } from 'next-i18next'
+import { GetStaticProps } from 'next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'react-i18next'
+interface ScriptProps {
+  _nextI18Next?: {
+    initialI18nStore: any;
+    initialLocale: string;
+    ns: string[];
+  };
+}
 
-const App = ({ Component, pageProps }) => {
+export const getStaticProps: GetStaticProps<ScriptProps> = async ({
+  locale,
+}) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? 'en', [
+      'common',
+    ])),
+  },
+})
+
+const App = ({ Component, pageProps }: AppProps) => {
+  const { t, i18n } = useTranslation()
   return (
     <SWRConfig
       value={{

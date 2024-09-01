@@ -4,8 +4,10 @@ import FadeIn from 'react-fade-in'
 import Image from 'next/image'
 import SongImage from '@public/img/song.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useTranslation } from 'react-i18next'
 
 export const NowPlayingCard = () => {
+  const { t } = useTranslation('common')
   const lastFM = useLastFM('connordoesdev', "5888ff85ca20c64b8cb89a1e1291019f", 5000, 'large')
 
   if (['connecting', 'error'].includes(lastFM.status)) return null
@@ -41,8 +43,8 @@ export const NowPlayingCard = () => {
         <div className="my-auto ml-4">
           <div className="font-semibold text-sm sm:text-regular">
             {lastFM.status === 'playing'
-              ? `listening to ${truncate(lastFM.song.name, 25)} by ${truncate(lastFM.song.artist, 25)}`
-              : 'inactive'}
+              ? t('song.playing', { name: truncate(lastFM.song.name, 25), by: truncate(lastFM.song.artist, 25)})
+              : t('song.inactive')}
           </div>
           <div className="text-xs text-gray-400">
           <FontAwesomeIcon className="fill-current" icon={['fab', 'spotify']} /> {lastFM.status === 'playing' ? lastFM.song.album : 'Spotify'}

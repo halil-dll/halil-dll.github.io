@@ -24,6 +24,7 @@
     "@mdx-js/loader": "^2.1.5",
     "@next/mdx": "^11.0.1",
     "dayjs": "^1.10.6",
+    "flag-icons": "^7.2.3",
     "framer-motion": "^4.1.17",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
