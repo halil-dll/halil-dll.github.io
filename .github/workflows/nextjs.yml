@@ -1,10 +1,5 @@
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - dev  # Change this to the branch you use for development
-
 jobs:
   deploy:
     name: Deploy to GitHub Pages

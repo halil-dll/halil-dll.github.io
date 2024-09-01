@@ -6,5 +6,9 @@
     "song": {
         "playing": "hört {{name}} von {{by}}",
         "inactive": "inaktiv"
-    }
+    },
+    "\tHome": "Hauptseite",
+    "About": "Über Mich",
+    "Projects": "Projekte",
+    "Blog": "Blog"
 }
