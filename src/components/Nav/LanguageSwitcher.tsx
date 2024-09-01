@@ -5,14 +5,19 @@ export const LanguageSwitcher = () => {
     const { i18n } = useTranslation('common');
     const router = useRouter();
 
+    // Define locales
+    const oldLocale = i18n.language === 'en' ? 'en' : 'de';
     const newLocale = i18n.language === 'en' ? 'de' : 'en';
 
-    // Determine the flag class based on the current language
-    const flagClass = i18n.language === 'en' ? 'fi fi-de' : 'fi fi-us';
+    const flagClass = oldLocale === 'en' ? 'fi fi-de' : 'fi fi-us';
 
     const handleLanguageSwitch = () => {
-        // Use router.push to change locale and maintain the current path
-        router.push(router.asPath, router.asPath, { locale: newLocale });
+        // handle paths that don't include a locale
+        const basePath = router.asPath.startsWith(`/${oldLocale}`)
+            ? router.asPath.replace(`/${oldLocale}`, `/${newLocale}`)
+            : `/${newLocale}${router.asPath}`;
+
+        router.push(basePath, basePath, { locale: newLocale });
     };
 
     return (
