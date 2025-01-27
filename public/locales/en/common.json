@@ -1,11 +1,11 @@
 {
-    "subheader": "Student focusing on system administration and software engineering.",
+    "subheader": "Student focusing on broadcast production and cybersecurity/software administration.",
     "change-locale": "Switch language to {{newLocale}}",
     "copied_email": "Copied email to clipboard!",
     "404": "ur kinda lost man idk where u at",
     "song": {
-        "playing": "listening to {{name}} by {{by}}",
-        "inactive": "inactive"
+        "playing": "Listening to {{name}} by {{by}}",
+        "inactive": "Inactive"
     },
     "\tHome": "Home",
     "About": "About",

@@ -1,11 +1,11 @@
 {
-    "subheader": "Schüler, welcher sich auf System-Administration, Cyber-Threat Intelligence und Software Entwicklung fokusiert.",
-    "change-locale": "Spräche zu {{newLocale}} wechseln",
+    "subheader": "Schüler mit den Schwerpunkten Broadcast-Produktion und Cybersicherheit/System-Administration.",
+    "change-locale": "Sprache zu {{newLocale}} wechseln",
     "copied_email": "Email in die Zwischenablage kopiert!",
     "404": "bro keine ahnung wo du bist aber die seite gibt es nicht",
     "song": {
-        "playing": "hört {{name}} von {{by}}",
-        "inactive": "inaktiv"
+        "playing": "Hört {{name}} von {{by}}",
+        "inactive": "Inaktiv"
     },
     "\tHome": "Hauptseite",
     "About": "Über Mich",
